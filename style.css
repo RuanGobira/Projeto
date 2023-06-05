@@ -1,0 +1,304 @@
+html{
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-color: #e6e6f0;
+}
+
+#icon{
+    transition: 0.5s ease;
+    margin-bottom: 15px;
+    margin: auto;
+    display: block;
+    width: 50px;
+}
+
+#icon:hover{
+    width: 60px;
+}
+
+h1{
+    text-align: center;
+    font-size: 4ex;
+}
+
+#fs1{
+    border-style: solid;
+}
+
+.produtosbox{
+    cursor: pointer;
+    border: 3px solid rgba(0, 0, 0, 0.158);
+    vertical-align: middle;
+    border-radius: 30px;
+    display: inline-block;
+    margin: 20px 40px 10px 55px;
+    background-image: radial-gradient(rgb(255, 255, 255), rgba(201, 202, 233, 0.541));
+    width: 200px;
+    height: 150px;
+}
+
+#Iphone{
+    left: 5px;
+    position: relative;
+    margin: 16px 10px 15px 35px;
+    height: 100px;
+    display: inline-block;
+    width: 120px;
+}
+
+#AppleWatch{
+    bottom: 5px;
+    left: 5px;
+    position: relative;
+    margin: 10px 10px 15px 35px;
+    height: 100px;
+    display: inline-block;
+    width: 130px;
+    height: 120px;
+}
+
+#Airpod{
+    left: 10px;
+    position: relative;
+    margin: 10px 10px 15px 35px;
+    height: 100px;
+    display: inline-block;
+    width: 120px;
+}
+
+#Macbook{
+    margin: 10px 10px 0px 35px;
+    height: 100px;
+    display: inline-block;
+    width: 140px;
+}
+
+#nome1{
+    display: block;
+    font-size: 2.5ex;
+    margin: -15px auto 0px auto;
+    text-align: center;
+    font-weight: 100;
+}
+
+
+#nome2{
+    display: block;
+    font-size: 2.5ex;
+    margin: -35px auto 0px auto;
+    text-align: center;
+    font-weight: 100;
+}
+
+#nome3{
+    display: block;
+    font-size: 2.5ex;
+    margin: -15px auto 0px auto;
+    text-align: center;
+    font-weight: 100;
+}
+
+#nome4{
+    display: block;
+    font-size: 2.5ex;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    font-weight: 100;
+}
+
+#fs2{
+    height: 500px;
+    background-image: linear-gradient(to right,rgb(49, 49, 56), rgb(23, 23, 26),  rgb(13, 14, 14),black, rgb(0, 0, 0), black, black);
+}
+
+#content1{
+    right: 750px;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    color: rgb(209, 233, 235);
+}
+
+#title1{
+    top: 60px;
+    position: relative;
+    margin-bottom: 50px;
+    transition: 0.5s ease;
+    font-size: 4em;
+}
+
+#title1:hover{
+    color: rgb(179, 222, 228);
+    font-size: 4.5em;
+}
+
+#fundoiphone{
+    transition: 0.5s ease;
+    margin: 0%;
+    top: 31px;
+    left: 545px;   
+    position: relative;
+    height: 480px;
+    opacity: 0.1;
+}
+
+#fundoiphone:hover{
+    left: 530px;
+    top: 21px;
+    height: 490px;
+    opacity: 0.8;
+}
+
+#fs3{
+    height: 500px;
+    background-image: linear-gradient(to left, rgb(109, 6, 6),rgb(66, 7, 7), rgb(0, 0, 0), black, black);
+}
+
+#content2{
+    right: 20px;
+    margin: 0px;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+}
+
+#title2{
+    transition: 0.5s ease;
+    font-size: 4em;
+}
+
+#title2:hover{
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to left, rgb(241, 150, 150), rgb(177, 0, 0));
+    font-size: 4.5em;
+}
+
+#fundorelogio{
+    transition: 0.5s ease-out;
+    margin: 0%;
+    top: 10px;
+    left: 50px;   
+    position: relative;
+    height: 480px;
+    opacity: 0.5;
+}
+
+#fundorelogio:hover{
+    height: 490px;
+    opacity: 1;
+}
+
+#fs4{
+    height: 500px;
+    background-image: linear-gradient(to right, rgb(58, 58, 58),rgb(15, 15, 15), rgb(0, 0, 0), black, black);
+}
+
+#content3{
+    right: 760px;
+    margin: 0px;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.774);
+}
+
+#title3{
+    color: rgba(255, 255, 255, 0.774);
+    transition: 0.5s ease;
+    font-size: 4em;
+}
+
+#title3:hover{
+    color:rgb(255, 255, 255);
+    font-size: 4.5em;
+}
+
+#fundofone{
+    transition: 0.5s ease-out;
+    margin: 0%;
+    top: 10px;
+    left: 650px;   
+    position: relative;
+    height: 480px;
+    opacity: 0.5;
+}
+
+#fundofone:hover{
+    height: 490px;
+    opacity: 1;
+}
+
+#fs5{
+    height: 500px;
+    background-image: linear-gradient(to left, rgb(45, 85, 76), rgb(38, 51, 48), black, black);
+}
+
+#content4{
+    right: 20px;
+    margin: 0px;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    color: rgba(172, 235, 203, 0.979);
+}
+
+#title4{
+    color: rgb(49, 107, 94);
+    transition: 0.5s ease;
+    font-size: 4em;
+}
+
+#title4:hover{
+    color:rgb(23, 165, 134);
+    font-size: 4.5em;
+}
+
+#fundopc{
+    transition: 0.5s ease-out;
+    width: 540px;
+    margin: 0%;
+    top: 90px;
+    left: 30px;   
+    position: relative;
+    height: 380px;
+    opacity: 0.5;
+}
+
+#fundopc:hover{
+    height: 390px;
+    width: 550px;
+    opacity: 1;
+}
+
+.pl{
+    top: 40px;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    width: 500px;
+    position: relative;
+    right: 10px;
+    font-size: 0.6cm;
+    text-align: center;
+}
+
+.pr{
+    margin-right: 20px;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    width: 500px;
+    position: relative;
+    right: 0px;
+    font-size: 0.6cm;
+    text-align: center;
+}
+
+
+::-webkit-scrollbar{
+    border-radius: 100px;
+    background-color: #e6e6f0;
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 100px;
+    background-color: rgb(0, 0, 0);
+}
